@@ -1,0 +1,431 @@
+@import "./fonts"
+
+$roboto: "Roboto"
+$roboto-thin: "Roboto-thin"
+$roboto-bold: "Roboto-bold"
+
+// header
+body
+    margin: 0
+    padding: 0
+header
+    display: flex
+    justify-content: center
+    background-color: #0f1c39
+    background: url("../img/Graph.png") no-repeat top center
+    background-size: cover
+.container
+    
+    width: 1200px
+    display: flex
+    flex-direction: column
+.top-bar
+    
+    margin-top: 80px
+    display: flex
+    width: 100%
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    a
+        text-decoration: none
+.menu
+    ul
+         
+        display: flex
+        padding: 0
+        align-items: center
+        list-style: none
+        li
+            margin-right: 50px
+        li:last-child
+            margin-right: 0
+            
+            border: 1px solid #233a72
+            border-radius: 30px
+            display: block
+            
+            a
+                color: #5584ff
+                padding: 20px 40px
+                display: block
+                                 
+
+        a
+            color: white
+            font-family: $roboto
+
+.slogan-wrapper
+     
+    display: flex
+    justify-content: center
+.slogan
+    display: flex
+    flex-direction: column
+     
+    h3
+        padding: 0
+        margin: 0
+        margin-bottom: 40px
+        font-family: $roboto-thin
+        font-size: 60px
+        color: white
+        text-align: center
+    p
+        font-family: $roboto
+        font-size: 36px
+        color: #8492af
+        padding: 0
+        margin: 0
+        text-align: center
+.start
+    text-align: center
+    margin-top: 90px
+    margin-bottom: 20px
+     
+    a
+        text-decoration: none
+        color: white
+        padding: 20px 50px 20px 50px
+        border: 1px solid #5584ff
+        font-size: 18px
+        font-family: $roboto-bold
+        background-color: #5584ff
+        border-radius: 40px
+.program-wrapper
+    display: flex
+    justify-content: center
+.program
+    
+    padding: 0
+    margin-top: 85px
+    height: 490px
+    max-width: 100%
+    box-shadow: 0 0 80px rgba(39, 71, 144, 0.46)
+// end header
+
+// features
+#features
+    margin-top: 130px 
+    display: flex
+    justify-content: center
+.features-wrapper
+    display: flex
+    margin-top: 140px
+    flex-wrap: wrap
+    flex-direction: row
+    justify-content: space-between
+.feature
+     
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 300px
+    margin-bottom: 20px
+.description
+    text-align: center
+    margin-top: 30px
+    p
+        margin: 0
+        color: #8492af
+        font-family: $roboto
+        font-size: 18px
+.icon
+    img
+        width: 80px
+        height: 80px
+.title
+    margin-top: 60px
+    p
+        margin: 0
+        color: #0e1a35
+        font-family: $roboto-bold
+        font-size: 24px
+.more
+    margin-top: 55px
+    margin-bottom: 20px
+    a
+        text-decoration: none
+        color: #0e1a35
+        font-size: 18px
+        font-family: $roboto-bold
+        padding: 17px 90px
+        border: 1px solid #dadee7
+        border-radius: 24px
+//end features
+
+// need section
+#need
+    display: flex
+    justify-content: center
+    background-color: #f6f7fa
+    background: url("../img/devices-browser.png") #f6f7fa no-repeat center right
+    background-size: 700px
+.browser-wrapper
+    margin-top: 100px
+    display: flex
+.browser
+    
+    width: 490px
+    &-title
+    
+        h1 
+            font-family: $roboto-thin
+            font-size: 44px
+            color: #0e1a35
+            margin: 0
+    &-description
+        margin-top: 60px
+        p
+            margin-top: 40px
+            font-size: 18px
+            color: #8492af
+            font-family: $roboto
+        p:first-child
+            margin-top: 0
+.devices
+     
+    img
+        width: 700px
+.plus
+    margin-top: 70px
+    ul
+        list-style: none
+        padding: 0
+    span
+        margin-top: 20px
+    li
+        color: #5584ff
+        font-family: $roboto
+        font-size: 22px
+        padding-left: 48px
+        background: url("../img/checked.png") no-repeat left center
+        margin-bottom: 50px
+// end need section
+
+// functions section
+
+#functions
+    display: flex
+    justify-content: center
+    background-color: #0f1c39
+    background: url("../img/Graph.png") no-repeat top center
+    background-size: cover
+.functions-wrapper
+    margin-top: 100px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    flex-wrap: wrap
+.function
+    img
+        width: 700px
+.functions-description
+    margin-top: 70px
+    width: 400px
+.functions-title
+    h3
+        margin: 0
+        font-family: $roboto-thin
+        color: white
+.function-description
+    margin-top: 35px
+    p
+        color: #8492af
+        font-family: $roboto
+        margin: 0
+    p:last-child
+        margin-top: 20px
+.slide-buttons
+    margin-top: 25px
+    input
+        margin-right: 20px
+        outline: none
+// end functions section
+
+// template section
+#template
+    display: flex
+    justify-content: center
+    background-color: #f6f7fa
+.template-wrapper
+     
+    margin-top: 100px
+    display: flex
+    flex-direction: column
+    align-items: center
+.template-title
+    
+    h1
+        margin: 0
+        color: #0e1a35
+        font-family: $roboto-thin
+        font-size: 60px
+.template-description
+    width: 900px
+    margin-top: 50px
+    p
+        margin: 0
+        text-align: center
+        color: #8492af
+        font-family: $roboto
+        font-size: 18px
+.customize
+    margin-top: 75px
+    img
+        width: 900px
+#pricing
+    display: flex
+    justify-content: center
+.pricing
+     
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+.pricing-title
+    margin-top: 60px
+    h1
+        margin: 0
+        color: #0e1a35
+        font-family: $roboto-thin
+        font-size: 60px
+.plans
+    display: flex
+    width: 100%
+    flex-direction: row
+    justify-content: space-around
+    flex-wrap: wrap
+     
+    margin-top: 100px
+
+.plan
+     
+    width: 360px
+    display: flex
+    flex-direction: column
+    align-items: center
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.35)
+.plan-title
+    margin-top: 45px
+    h4
+        margin: 0
+        color: #0e1a35
+        font-family: $roboto
+        font-size: 24px
+.plan-price
+    margin-top: 50px
+    p
+        margin: 0
+        color: #0e1a35
+        font-family: $roboto
+        font-size: 72px
+    span:first-child
+        color: #0e1a35
+        font-family: $roboto
+        font-size: 40px
+    span:last-child
+        color: #8492af
+        font-family: $roboto
+        font-size: 24px
+.advantages
+    ul
+        padding: 0
+        list-style: none
+        li
+            color: #8492af
+            background: url("../img/checked.png") no-repeat left center
+            padding-left: 35px
+            line-height: 35px
+.plan:first-child
+    .advantages
+        ul
+            padding: 0
+            list-style: none
+            li:nth-child(3)
+                color: #8492af
+                background: url("../img/cancel.png") no-repeat left center
+                background-size: 25px 25px
+                padding-left: 35px
+                line-height: 35px
+            li:nth-child(4)
+                color: #8492af
+                background: url("../img/cancel.png") no-repeat left center
+                background-size: 25px 25px
+                padding-left: 35px
+                line-height: 35px
+
+.plan:nth-child(2)
+    .advantages
+        ul
+            padding: 0
+            list-style: none
+            li:nth-child(4)
+                color: #8492af
+                background: url("../img/cancel.png") no-repeat left center
+                background-size: 25px 25px
+                padding-left: 35px
+                line-height: 35px
+.join-description
+    margin-top: 100px
+    width: 800px
+    p
+        margin: 0
+        text-align: center
+        color: #8492af
+        font-family: $roboto
+        font-size: 18px
+.join-now
+    margin-top: 80px
+    margin-bottom: 100px
+    a
+        padding: 20px 50px
+        text-decoration: none
+        color: white
+        border: 1px solid #5584ff
+        border-radius: 40px
+        background-color: #5584ff
+        font-family: $roboto-bold
+        font-size: 18px
+// end pricing
+
+// footer
+footer
+    display: flex
+    justify-content: center
+    background-color: #0e1a35
+    align-items: center
+    height: 140px
+.footer-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    p, a
+        color: #8492af
+        text-decoration: none
+        font-family: $roboto
+        font-size: 18px
+.copyright
+    p
+        margin: 0
+.info
+    display: flex
+    flex-wrap: wrap
+.info-data, .socials
+    ul
+        list-style: none
+        padding: 0
+        display: flex
+    
+.info-data
+    margin-right: 50px
+    ul
+        width: 260px
+        justify-content: space-between
+.socials
+    ul
+        width: 80px
+        justify-content: space-between
+
+@import "./media"
